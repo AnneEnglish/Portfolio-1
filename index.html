@@ -16,7 +16,7 @@
     waterford"
     />
     <!-- Title -->
-    <title>Best Places to Visit in Waterford</title>
+    <title>Best Places to ... in Waterford</title>
     <!-- Favicon -->
     <link
       rel="apple-touch-icon"
@@ -38,15 +38,18 @@
     <!-- Filepath and link to style sheet-->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
     <!-- Header -->
     <header>
       <a href="index.html">
-        <h1 id="logo">Best Places to Visit in Waterford</h1>
+        <h1 id="logo">Best Places to ... in Waterford</h1>
       </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">X</label>
       <nav>
         <ul id="nav-list">
-          <li><a href="">Home</a></li>
+          <li><a href="" class="home">Home</a></li>
           <li><a href="">Plan your trip</a></li>
           <li><a href="">Where to stay</a></li>
         </ul>
@@ -54,17 +57,20 @@
     </header>
 
     <!-- Main Content -->
-    <main>Main Content</main>
+    <main>
+      <h1>Main Content</h1>
+    </main>
 
     <!-- Footer -->
     <footer>
-      <ul>
+      <ul id="socials">
         <li>
           <a
             href="https://www.instagram.com/"
             target="_blank"
             rel="noopener"
             aria-label="Visit our Instagram (opens in new tab)"
+            ><i class="fa-brands fa-instagram" style="color: #0000ff"></i
           ></a>
         </li>
         <li>
@@ -73,6 +79,7 @@
             target="_blank"
             rel="noopener"
             aria-label="Visit our Facebook (opens in new tab)"
+            ><i class="fa-brands fa-facebook" style="color: #0000ff"></i
           ></a>
         </li>
         <li>
@@ -81,9 +88,15 @@
             target="_blank"
             rel="noopener"
             aria-label="Visit our Youtube (opens in new tab)"
+            ><i class="fa-brands fa-youtube" style="color: #0000ff"></i
           ></a>
         </li>
       </ul>
     </footer>
   </body>
+  <!--Link to Font Awesome kit -->
+  <script
+    src="https://kit.fontawesome.com/9a36972be8.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

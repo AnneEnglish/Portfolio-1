@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 /* General styles */
@@ -14,7 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic Project styles*/
-    color: #3a3a3a;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -24,8 +24,11 @@ header {
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #ffffff;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -35,9 +38,10 @@ header a {
 
 h1 {
     font-family: 'Crimson Text', serif;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 2px;
     color: #ffffff;
+    font-size: larger;
 
 }
 
@@ -47,14 +51,62 @@ h1 {
     list-style-type: none;
 }
 
+#nav-list>li {
+    margin-bottom: 1em;
+}
+
+.home {
+    border-bottom: 1px solid #ffffff;
+}
+
+/* Nav bar with dropdown menu*/
+nav {
+    position: absolute;
+    background-color: #0000ff;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding-right: 0 1rem;
+    display: none;
+}
+
+/* Navbar toggle */
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
 /* Main Content */
 main {
+    background-image: url(../images/waterford_quay.jpg);
+    opacity: 0.7;
     background-color: lightblue;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    padding-top: 40px;
     /* Push footer down*/
+    margin-top: 0;
     flex: 1 0 auto;
 }
 
 /* Footer */
-footer {
-    background-color: orange;
+#socials {
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#socials i {
+    font-size: 20px;
 }
