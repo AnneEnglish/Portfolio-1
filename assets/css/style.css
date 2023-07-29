@@ -87,8 +87,8 @@ nav {
 
 /* Main Content */
 main {
-    background-image: url(../images/waterford_coast.jpg);
-    opacity: 0.9;
+    background-image: url(../images/waterfordquay.jpg);
+    opacity: 0.7;
     background-color: lightblue;
     background-position: center;
     background-size: cover;
@@ -97,7 +97,7 @@ main {
     padding-top: 40px;
     padding-left: 1em;
     /* Push footer down*/
-    margin-top: 0;
+    margin-top: 2em;
     flex: 1 0 auto;
 }
 
@@ -115,14 +115,28 @@ main {
     font-size: 20px;
 }
 
-@media screen and (max-width: 334px) {
+/* Minimum and maximum media queries (to stop alteration of main conent being 
+covered on smaller devices and content area dropping down on larger devices.)*/
+@media screen and (max-width: 359px) {
+    header {
+        font-size: small;
+    }
+
     main {
-        padding-top: 64px;
-        background-image: url(../images/waterford_coast_smaller.jpg);
-        opacity: 0.4;
+        padding-top: 40px;
+        margin-top: 0.5em;
+        background-image: url(../images/waterfordquay.jpg);
+        opacity: 0.7;
         background-color: lightblue;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    main {
+        margin-top: 0.5em;
     }
 }
