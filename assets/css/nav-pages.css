@@ -1,5 +1,5 @@
 /* Google Fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Quicksand&display=swap');
 
 /* Asterisk wildcardselector to override styles that are default by browser */
 * {
@@ -15,8 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic Project styles*/
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* Header */
@@ -88,36 +87,13 @@ nav {
 
 /* Main Content */
 main {
-    background-image: url(../images/waterford_quay1.jpg);
-    opacity: 0.9;
-    background-color: lightblue;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #000000;
+    background-color: #90B7BA;
+    color: black;
     padding-top: 40px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 1em;
     /* Push footer down*/
-    margin-top: 1em;
+    margin-top: 2em;
     flex: 1 0 auto;
-}
-
-h4 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: #000000;
-}
-
-#p2 {
-    margin-top: 20%;
-    background-color: #ffffff;
-    opacity: 0.7;
 }
 
 /* Footer */
@@ -126,6 +102,7 @@ p {
     list-style-type: none;
     padding: 15px;
     display: flex;
+
     justify-content: space-evenly;
 }
 
@@ -135,12 +112,6 @@ p {
 
 /* Minimum and maximum media queries (to stop alteration of main conent being 
 covered on smaller devices and content area dropping down on larger devices.)*/
-@media screen and (min-width:800px) {
-    #p2 {
-        margin-top: 50vw;
-    }
-}
-
 @media screen and (max-width: 359px) {
     header {
         font-size: small;
@@ -149,27 +120,13 @@ covered on smaller devices and content area dropping down on larger devices.)*/
     main {
         padding-top: 40px;
         margin-top: 0.5em;
-        background-image: url(../images/waterford_quay1.jpg);
-        opacity: 0.9;
-        background-color: lightblue;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        font-size: smaller;
-    }
-
-    #p2 {
-        margin-top: 60vw;
+        background-color: #90B7BA;
+        font-size: small;
     }
 }
 
-@media screen and (max-width:224px) {
-    header {
-        font-size: small;
-    }
-
+@media screen and (min-width: 360px) {
     main {
-        padding-top: 55px;
-        font-size: smaller;
+        margin-top: 0.5em;
     }
 }
