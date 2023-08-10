@@ -1,25 +1,19 @@
-/* Google Fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&family=Roboto:ital,wght@1,500&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&family=Roboto:ital,wght@1,500&display=swap);
 
-/* Asterisk wildcardselector to override styles that are default by browser */
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-
+    box-sizing: border-box
 }
 
-/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic Project styles*/
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 18px
 }
 
-/* Header */
 header {
     background-color: #0F52BA;
     padding: 0 1rem;
@@ -29,11 +23,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    z-index: 99;
+    box-shadow: 0 5px 10px #fff
 }
 
 header a {
     text-decoration: none;
-    color: #fff;
+    color: #fff
 }
 
 h1 {
@@ -41,25 +37,23 @@ h1 {
     text-transform: none;
     letter-spacing: 2px;
     color: #fff;
-    font-size: 20px;
-
+    font-size: 20px
 }
 
 #nav-list {
     font-size: 110%;
     letter-spacing: 4px;
-    list-style-type: none;
+    list-style-type: none
 }
 
 #nav-list>li {
-    margin-bottom: 1em;
+    margin-bottom: 1em
 }
 
 .home {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fff
 }
 
-/* Nav bar with dropdown menu*/
 nav {
     position: absolute;
     background-color: #0F52BA;
@@ -69,49 +63,46 @@ nav {
     padding-top: 1rem;
     padding-right: 0 1rem;
     display: none;
-    text-align: center;
+    text-align: center
 }
 
-/* Navbar toggle */
 #nav-toggle {
-    display: none;
+    display: none
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 2rem
 }
 
 #nav-toggle:checked~nav {
-    display: block;
+    display: block
 }
 
-
-/* Main Content */
 main {
     background-image: url(../images/sand_1.webp);
-    opacity: 0.9;
+    opacity: .9;
     background-color: #add8e6;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #CA9F7C;
     color: #fff;
-    text-shadow: 1px 1px 2px #000, 0 0 1em #000, 0 0 0.2em #000;
+    text-shadow: 1px 1px 2px #000, 0 0 1em #000, 0 0 .2em #000;
     position: relative;
     padding-top: 40px;
     padding-left: 22px;
     padding-right: 22px;
     padding-bottom: 22px;
-    /* Push footer down*/
     margin-top: 1em;
-    flex: 1 0 auto;
+    flex: 1 0 auto
 }
 
 .images {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%
+    width: 300px;
+    height: 200px
 }
 
 h2,
@@ -119,71 +110,98 @@ h3,
 p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 18px
 }
 
 li {
-    list-style-type: none;
+    list-style-type: none
 }
 
 li p,
 li h3 {
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    font-size: 18px;
+    font-size: 18px
 }
 
-/* Footer */
 #socials {
     text-align: center;
     list-style-type: none;
     padding: 15px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly
 }
 
 #socials i {
-    font-size: 20px;
+    font-size: 20px
 }
 
-/* Minimum and maximum media queries (to stop alteration of main conent being 
-covered on smaller devices and content area dropping down on larger devices.)*/
-@media screen and (max-width: 359px) {
+@media screen and (max-width:356px) {
     header {
-        font-size: small;
+        font-size: small
     }
 
     main {
-        padding-top: 64px;
-        margin-top: 8px;
         font-size: smaller;
+        margin-top: 50px
     }
 
-
+    .images {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px
+    }
 }
 
-@media screen and (max-width:302px) {
+@media screen and (max-width:222px) {
     header {
-        font-size: small;
+        font-size: small
     }
 
     main {
-        margin-top: 56px;
-        padding-top: 15px;
-        font-size: smaller;
+        margin-top: 60px;
+        font-size: smaller
+    }
+
+    .images {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 151px;
+        height: 200px
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width:700px) {
+    .images {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        height: 400px
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .images {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        height: 400px
+    }
+
     h1 {
-        font-size: 25px;
+        font-size: 25px
     }
 
-    h2 {
-        font-size: 23px;
-    }
-
-    main {
-        font-size: 23px;
+    h2,
+    h3,
+    p,
+    li h3,
+    li p {
+        font-size: 23px
     }
 }

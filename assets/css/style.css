@@ -29,6 +29,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    z-index: 99;
+    box-shadow: 0 5px 2px #fff;
 }
 
 header a {
