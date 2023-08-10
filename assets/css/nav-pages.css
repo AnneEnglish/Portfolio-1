@@ -1,5 +1,5 @@
 /* Google Fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&family=Roboto:ital,wght@1,500&display=swap');
 
 /* Asterisk wildcardselector to override styles that are default by browser */
 * {
@@ -15,12 +15,13 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic Project styles*/
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 /* Header */
 header {
-    background-color: #264B4E;
+    background-color: #0F52BA;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -32,15 +33,15 @@ header {
 
 header a {
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
 }
 
 h1 {
     font-family: 'Crimson Text', serif;
     text-transform: none;
     letter-spacing: 2px;
-    color: #ffffff;
-    font-size: larger;
+    color: #fff;
+    font-size: 20px;
 
 }
 
@@ -55,13 +56,13 @@ h1 {
 }
 
 .home {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #fff;
 }
 
 /* Nav bar with dropdown menu*/
 nav {
     position: absolute;
-    background-color: #264B4E;
+    background-color: #0F52BA;
     width: 100%;
     left: 0;
     top: 100%;
@@ -87,13 +88,49 @@ nav {
 
 /* Main Content */
 main {
-    background-color: #90B7BA;
-    color: black;
+    background-image: url(../images/sand_1.webp);
+    opacity: 0.9;
+    background-color: #add8e6;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #CA9F7C;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000, 0 0 1em #000, 0 0 0.2em #000;
+    position: relative;
     padding-top: 40px;
-    padding-left: 1em;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
     /* Push footer down*/
-    margin-top: 2em;
+    margin-top: 1em;
     flex: 1 0 auto;
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+h2,
+h3,
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li p,
+li h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 18px;
 }
 
 /* Footer */
@@ -102,7 +139,6 @@ main {
     list-style-type: none;
     padding: 15px;
     display: flex;
-
     justify-content: space-evenly;
 }
 
@@ -118,15 +154,36 @@ covered on smaller devices and content area dropping down on larger devices.)*/
     }
 
     main {
-        padding-top: 40px;
-        margin-top: 0.5em;
-        background-color: #90B7BA;
+        padding-top: 64px;
+        margin-top: 8px;
+        font-size: smaller;
+    }
+
+
+}
+
+@media screen and (max-width:302px) {
+    header {
         font-size: small;
+    }
+
+    main {
+        margin-top: 56px;
+        padding-top: 15px;
+        font-size: smaller;
     }
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
     main {
-        margin-top: 0.5em;
+        font-size: 23px;
     }
 }

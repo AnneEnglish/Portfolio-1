@@ -21,7 +21,7 @@ body {
 
 /* Header */
 header {
-    background-color: #264B4E;
+    background-color: #0F52BA;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -62,7 +62,7 @@ h1 {
 /* Nav bar with dropdown menu*/
 nav {
     position: absolute;
-    background-color: #264B4E;
+    background-color: #0F52BA;
     width: 100%;
     left: 0;
     top: 100%;
@@ -88,13 +88,14 @@ nav {
 
 /* Main Content */
 main {
-    background-image: url(../images/waterford_quay1.jpg);
+    background-image: url(../images/waterfordquay.webp);
     opacity: 0.9;
-    background-color: lightblue;
+    background-color: #add8e6;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #000;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000, 0 0 1em #000, 0 0 0.2em #000;
     position: relative;
     padding-top: 40px;
     padding-left: 8px;
@@ -102,7 +103,6 @@ main {
     /* Push footer down*/
     margin-top: 1em;
     flex: 1 0 auto;
-
 }
 
 h2 {
@@ -114,20 +114,17 @@ h2 {
 #p1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: #000;
     display: flex;
     flex-direction: row;
 }
 
 #p2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
     display: flex;
     flex: row;
     position: absolute;
-    background-color: #fff;
-    mix-blend-mode: luminosity;
-    opacity: 0.7;
     bottom: 0;
-    text-align: center;
     margin: 8px;
 }
 
@@ -154,9 +151,9 @@ covered on smaller devices and content area dropping down on larger devices.)*/
     main {
         padding-top: 64px;
         margin-top: 8px;
-        background-image: url(../images/waterford_quay1.jpg);
+        background-image: url(../images/waterfordquay.webp);
         opacity: 0.9;
-        background-color: lightblue;
+        background-color: #add8e6;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -173,7 +170,7 @@ covered on smaller devices and content area dropping down on larger devices.)*/
 
     main {
         margin-top: 56px;
-        padding-top: 8px;
+        padding-top: 15px;
         font-size: smaller;
     }
 }
