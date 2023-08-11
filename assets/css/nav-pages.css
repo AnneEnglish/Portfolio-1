@@ -87,7 +87,6 @@ main {
     background-repeat: no-repeat;
     background-color: #CA9F7C;
     color: #fff;
-
     position: relative;
     padding-top: 40px;
     padding-left: 22px;
@@ -110,7 +109,7 @@ h3,
 p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 18px
+    font-size: 14px
 }
 
 li {
@@ -121,7 +120,7 @@ li p,
 li h3 {
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    font-size: 18px
+    font-size: 14px
 }
 
 #socials {
