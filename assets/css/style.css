@@ -151,7 +151,7 @@ covered on smaller devices and content area dropping down on larger devices.)*/
     }
 
     main {
-        padding-top: 64px;
+        padding-top: 70px;
         margin-top: 8px;
         background-image: url(../images/waterfordquay.webp);
         opacity: 0.9;
@@ -171,22 +171,22 @@ covered on smaller devices and content area dropping down on larger devices.)*/
     }
 
     main {
-        margin-top: 56px;
+        margin-top: 60px;
         padding-top: 15px;
         font-size: smaller;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
     h1 {
-        font-size: 25px;
+        font-size: 45px;
     }
 
     h2 {
-        font-size: 23px;
+        font-size: 43px;
     }
 
     main {
-        font-size: 23px;
+        font-size: 43px;
     }
 }
