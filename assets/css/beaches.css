@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #0F52BA;
+    background-color: #28282B;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -56,7 +56,7 @@ h1 {
 
 nav {
     position: absolute;
-    background-color: #0F52BA;
+    background-color: #28282B;
     width: 100%;
     left: 0;
     top: 100%;
@@ -79,13 +79,12 @@ nav {
 }
 
 main {
-    background-image: url(../images/sand_1.webp);
+    background-image: url(../images/sand.webp);
     opacity: .9;
-    background-color: #add8e6;
+    background-color: #bb9c58;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #CA9F7C;
     color: #fff;
     position: relative;
     padding-top: 40px;
@@ -96,8 +95,14 @@ main {
     flex: 1 0 auto
 }
 
+.beaches {
+    margin-top: 15px;
+}
+
 .images {
     display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -121,6 +126,11 @@ li h3 {
     font-family: 'Roboto', sans-serif;
     text-align: left;
     font-size: 14px
+}
+
+/*Footer*/
+footer {
+    background-color: #28282B;
 }
 
 #socials {

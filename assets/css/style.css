@@ -21,7 +21,7 @@ body {
 
 /* Header */
 header {
-    background-color: #0F52BA;
+    background-color: #28282B;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -64,7 +64,7 @@ h1 {
 /* Nav bar with dropdown menu*/
 nav {
     position: absolute;
-    background-color: #0F52BA;
+    background-color: #28282B;
     width: 100%;
     left: 0;
     top: 100%;
@@ -130,6 +130,10 @@ h2 {
 }
 
 /* Footer */
+footer {
+    background-color: #28282B;
+}
+
 #socials {
     text-align: center;
     list-style-type: none;
