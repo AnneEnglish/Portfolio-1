@@ -69,7 +69,7 @@ nav {
     left: 0;
     top: 100%;
     padding-top: 1rem;
-    padding-right: 0 1rem;
+    padding-right: 1rem;
     display: none;
     text-align: center;
 }
@@ -124,7 +124,6 @@ h2 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     display: flex;
-    flex: row;
     position: absolute;
     bottom: 0;
     margin: 8px;
