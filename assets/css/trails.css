@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&family=Roboto:ital,wght@1,500&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px
+}
+
+header {
+    background-color: #0F52BA;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 99;
+    box-shadow: 0 5px 10px #fff
+}
+
+header a {
+    text-decoration: none;
+    color: #fff
+}
+
+h1 {
+    font-family: 'Crimson Text', serif;
+    text-transform: none;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 20px
+}
+
+#nav-list {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none
+}
+
+#nav-list>li {
+    margin-bottom: 1em
+}
+
+.home {
+    border-bottom: 1px solid #fff
+}
+
+nav {
+    position: absolute;
+    background-color: #0F52BA;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    display: none;
+    text-align: center
+}
+
+#nav-toggle {
+    display: none
+}
+
+.nav-toggle-label {
+    font-size: 2rem
+}
+
+#nav-toggle:checked~nav {
+    display: block
+}
+
+main {
+    background-image: url(../images/irish.webp);
+    opacity: .9;
+    background-color: #add8e6;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+    margin-top: 1em;
+    flex: 1 0 auto
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 200px
+}
+
+h2,
+h3,
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 14px
+}
+
+li {
+    list-style-type: none
+}
+
+li p,
+li h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 14px
+}
+
+#socials {
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+#socials i {
+    font-size: 20px
+}
+
+@media screen and (max-width:356px) {
+    header {
+        font-size: small
+    }
+
+    main {
+        font-size: smaller;
+        margin-top: 70px
+    }
+
+    .images {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px
+    }
+}
+
+@media screen and (max-width:222px) {
+    header {
+        font-size: small
+    }
+
+    main {
+        margin-top: 60px;
+        font-size: smaller
+    }
+
+    .images {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 151px;
+        height: 200px
+    }
+}
+
+@media screen and (min-width:700px) {
+    .images {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        height: 400px
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .images {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        height: 400px
+    }
+
+    h1 {
+        font-size: 25px
+    }
+
+    h2,
+    h3,
+    p,
+    li h3,
+    li p {
+        font-size: 23px
+    }
+}
