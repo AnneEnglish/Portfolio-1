@@ -87,7 +87,7 @@ main {
     background-repeat: no-repeat;
     color: #fff;
     position: relative;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 22px;
     padding-right: 22px;
     padding-bottom: 22px;
@@ -109,12 +109,16 @@ main {
     height: 200px
 }
 
+h2 {
+    padding-bottom: 15px;
+}
+
 h2,
 h3,
 p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 14px
+    font-size: 18px
 }
 
 li {
@@ -125,7 +129,7 @@ li p,
 li h3 {
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    font-size: 14px
+    font-size: 16px
 }
 
 /*Footer*/
@@ -203,7 +207,7 @@ footer {
     }
 
     h1 {
-        font-size: 25px
+        font-size: 28px
     }
 
     h2,
@@ -211,6 +215,6 @@ footer {
     p,
     li h3,
     li p {
-        font-size: 23px
+        font-size: 26px
     }
 }
