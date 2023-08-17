@@ -149,13 +149,18 @@ footer {
 }
 
 @media screen and (max-width:356px) {
-    header {
-        font-size: small
+    h1 {
+        font-size: 16px;
     }
 
     main {
-        font-size: smaller;
-        margin-top: 70px
+        margin-top: 30px
+    }
+
+    h2,
+    h3,
+    p {
+        font-size: 14px;
     }
 
     .images {
@@ -169,12 +174,12 @@ footer {
 
 @media screen and (max-width:222px) {
     header {
-        font-size: small
+        font-size: small;
     }
 
     main {
         margin-top: 60px;
-        font-size: smaller
+        font-size: smaller;
     }
 
     .images {
@@ -206,7 +211,7 @@ footer {
     }
 
     h1 {
-        font-size: 28px
+        font-size: 28px;
     }
 
     h2,
@@ -214,6 +219,6 @@ footer {
     p,
     li h3,
     li p {
-        font-size: 26px
+        font-size: 26px;
     }
 }
