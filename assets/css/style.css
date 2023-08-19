@@ -137,7 +137,7 @@ footer {
 
 @media screen and (max-width:359px) {
     h1 {
-        font-size: 16px;
+        font-size: 14px
     }
 
     main {
@@ -150,25 +150,24 @@ footer {
         background-size: cover;
         background-repeat: no-repeat;
         letter-spacing: 2px;
-        font-size: 14px;
+        font-size: 12px
     }
 
     h2 {
-        font-size: 14px;
+        font-size: 14px
     }
-
 }
 
 @media screen and (max-width:302px) {
     h1 {
-        font-size: small;
+        font-size: small
     }
 
     main {
         margin-top: 60px;
         padding-top: 25px;
         font-size: smaller;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.5px
     }
 }
 
