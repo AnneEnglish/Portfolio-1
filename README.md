@@ -14,20 +14,36 @@ whatever device they choose.
 
 ## Contents
 
-- [Best Places to Visit in Waterford](#best-places-to-visit-in-waterford)
-  - [Contents](#contents)
-    - [User Experience](#user-experience)
-    - [Design](#design)
-    - [Technologies Used](#technologies-used)
-    - [Deployment and Local Development](#deployment-and-local-development)
-    - [Testing](#testing)
-    - [Credits](#credits)
+- [User Experience](#User-Experience)
+
+  - [Initial Discussion](#Initial-Discussion)
+  - [User Stories](#User-Stories)
+
+- [Design](#design)
+
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+
+- [Technologies Used](#technologies-used)
+
+  - T
+
+- [Deployment and Local Development](#deployment-and-local-development)
+
+  - Dev
+
+- [Testing](#testing)
+
+  - Testing
+
+- [Credits](#credits)
+  - Code
 
 ---
 
-### User Experience
+## User Experience
 
-- #### Initial Discussion
+### Initial Discussion
 
 Best Places to Visit in Waterford is a website where people can gather information
 and ideas on places to visit within Waterford. They can choose from different places
@@ -37,39 +53,40 @@ kind of places are more popular than others, in return we can tailor our website
 to suit our users and what they like. If they also have any suggestions they can
 contact us through our social media.
 
-- #### User Stories
-- #### First Time Visitor Goals
+### User Stories
 
-  - I want to be able to understand the purpose of the site.
-  - I want to be easily able to navigate through the website.
-  - I want to be intrigued and continue browsing through the website.
-  - I want to able to locate their social media and see past places that they have recommended. I also want to see vlogs they have posted on their Youtube.
+#### First Time Visitor Goals
 
-- #### Returning Visitor Goals
+- I want to be able to understand the purpose of the site.
+- I want to be easily able to navigate through the website.
+- I want to be intrigued and continue browsing through the website.
+- I want to able to locate their social media and see past places that they have recommended. I also want to see vlogs they have posted on their Youtube.
 
-  - I want to find new recommendations for the month.
-  - I want to be able to find out how to contact them with any suggestions I have or any questions I have.
+#### Returning Visitor Goals
 
-- #### Frequent Vistor Goals
+- I want to find new recommendations for the month.
+- I want to be able to find out how to contact them with any suggestions I have or any questions I have.
 
-  - I want to be able to contact them with suggestions and submit my own photos for them to use on their website if they would like to.
+#### Frequent Vistor Goals
 
-- #### Client Goals
+- I want to be able to contact them with suggestions and submit my own photos for them to use on their website if they would like to.
 
-  - To be able to view the site on a range of devices with no issues.
-  - To make it clear to visitors what the purpose of the site is for.
-  - To allow visitors to submit suggestions if they would like to.
+#### Client Goals
 
-### Design
+- To be able to view the site on a range of devices with no issues.
+- To make it clear to visitors what the purpose of the site is for.
+- To allow visitors to submit suggestions if they would like to.
 
-- #### Colour Scheme
+## Design
+
+### Colour Scheme
 
 ![Best Places to Visit in Waterford Colour Scheme]
 
-### Technologies Used
+## Technologies Used
 
-### Deployment and Local Development
+## Deployment and Local Development
 
-### Testing
+## Testing
 
-### Credits
+## Credits
