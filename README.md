@@ -81,7 +81,18 @@ contact us through our social media.
 
 ### Colour Scheme
 
-![Best Places to Visit in Waterford Colour Scheme]
+![Best Places to Visit in Waterford Colour Scheme](assets/readme-images/colourscheme.png)
+
+This website uses an earthy colour palette. The colour palette **image** was created using [Art in Context](https://artincontext.org/color-palette-generator/). The colours were chosen by me for
+the website, not by using a colour palette generator.
+
+### Typography
+
+Google Fonts was used for all the fonts on the website.
+The following fonts were used on the website:
+
+- The header on the page is 'Crimson Text (Bold 700 Italic)', which is a serif font.
+- The body area, _including any 'h' elements_ is 'Roboto (Light 300)', which is a sans-serif font.
 
 ## Technologies Used
 
