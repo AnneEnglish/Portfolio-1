@@ -79,7 +79,7 @@ nav {
 }
 
 main {
-    background-image: url(../images/waterfordquay.webp);
+    background-image: url(../images/waterfordquay_shutterstock.webp);
     opacity: .9;
     background-color: #add8e6;
     background-size: cover;
@@ -143,7 +143,7 @@ footer {
     main {
         padding-top: 70px;
         margin-top: 8px;
-        background-image: url(../images/waterfordquay.webp);
+        background-image: url(../images/waterfordquay_shutterstock.webp);
         opacity: .9;
         background-color: #add8e6;
         background-position: center;

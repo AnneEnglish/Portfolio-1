@@ -94,6 +94,19 @@ The following fonts were used on the website:
 - The header on the page is 'Crimson Text (Bold 700 Italic)', which is a serif font.
 - The body area, _including any 'h' elements_ is 'Roboto (Light 300)', which is a sans-serif font.
 
+### Imagery
+
+Images used on this site are from Shutterstock or Adobestock (I own account with them and I am signed up for a free trial with them.) The background images for beaches.html and trails.html are from google images. I have also credited these in the credit section with a link to the images.
+
+### Features
+
+This website contains three pages (home page, beaches, trails), all of which are accessible from the navigation bar.
+
+- All pages on the website contain the following:
+
+  - A responsive navigation bar at the top right of the screen which allows the user to navigate easily through the site. This navigation bar has a burger icon to toggle it.
+  - A footer which contains three icons (Instagram, Facebook, Youtube) to allow the user to access our social media or contact us whenever they wish to. I used those icons as they are universally recognised and it help to keep the footer looking clean.
+
 ## Technologies Used
 
 ## Deployment and Local Development
