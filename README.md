@@ -110,7 +110,7 @@ This website contains three pages (home page, beaches, trails), all of which are
 
 ### Accessibility
 
-Throughout creating this website I have  made sure to make it as accessible as possible by doing the following
+Throughout creating this website I have made sure to make it as accessible as possible by doing the following
 
 - Using descriptive language on image _'alt'_ attributes.
 - Providing information for screen readers wherever icons are used on the site.
@@ -126,7 +126,18 @@ Throughout creating this website I have  made sure to make it as accessible as p
 
 ### Libraries and Programs Used
 
-1. [Google Fonts](https://fonts.google.com/)
+1. [Google Fonts:](https://fonts.google.com/)
+   - Google Fonts were used to import the 'Crimson Text' and 'Roboto' fonts used throughout index.html, beaches.html and trails.html pages by importing them into the style.css, beaches.css and trails.css files.
+2. [Font Awesome:](https://fontawesome.com/)
+   - Font Awesome was used on all pages for the website to add icons for the navigation bar and social media links. It was also used for aesthetic and UX.
+3. [Git:](https://git-scm.com/)
+   - Git was used for version control.
+4. [Github:](https://github.com/)
+   - GitHub was used to store and save the projects code after being pushed from Git.
+5. [Chrome DevTools:](https://developer.chrome.com/docs/devtools/)
+   - Chrome DevTools was used to test features and fix styling and responsiveness issues.
+6. [Online Convert:](https://www.online-convert.com/)
+   - Online Convert was used to convert images to WEBP for faster loading times on the site.
 
 ## Deployment and Local Development
 
