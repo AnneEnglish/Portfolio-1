@@ -96,7 +96,7 @@ The following fonts were used on the website:
 
 ### Imagery
 
-Images used on this site are from Shutterstock or Adobestock (I own account with them and I am signed up for a free trial with them.) The background images for beaches.html and trails.html are from google images. I have also credited these in the credit section with a link to the images.
+Images used on this site are from Shutterstock or Adobestock (I own an account with them and I am signed up for a free trial with them.) The background images for beaches.html and trails.html are from google images. I have also credited these in the credit section with a link to the images.
 
 ### Features
 
@@ -105,9 +105,28 @@ This website contains three pages (home page, beaches, trails), all of which are
 - All pages on the website contain the following:
 
   - A responsive navigation bar at the top right of the screen which allows the user to navigate easily through the site. This navigation bar has a burger icon to toggle it.
-  - A footer which contains three icons (Instagram, Facebook, Youtube) to allow the user to access our social media or contact us whenever they wish to. I used those icons as they are universally recognised and it help to keep the footer looking clean.
+  - A footer which contains three icons (Instagram, Facebook, Youtube) to allow the user to access our social media or contact us whenever they wish to. I used those icons as they are universally recognised and it helps to keep the footer looking clean.
+  - All images that are relative to the content shown on the page have an _'alt'_ attribute. The reasons being that incase the image can't be displayed, for SEO and for users that are visually impaired.
+
+### Accessibility
+
+Throughout creating this website I have  made sure to make it as accessible as possible by doing the following
+
+- Using descriptive language on image _'alt'_ attributes.
+- Providing information for screen readers wherever icons are used on the site.
+- Using sematic HTML.
+- Ensuring that the colour contrast throughout the site is sufficient.
 
 ## Technologies Used
+
+### Languages Used
+
+- HTML5
+- CSS3
+
+### Libraries and Programs Used
+
+1. [Google Fonts](https://fonts.google.com/)
 
 ## Deployment and Local Development
 
