@@ -138,6 +138,8 @@ Throughout creating this website I have made sure to make it as accessible as po
    - Chrome DevTools was used to test features and fix styling and responsiveness issues.
 6. [Online Convert:](https://www.online-convert.com/)
    - Online Convert was used to convert images to WEBP for faster loading times on the site.
+7. [Tiny PNG](https://tinypng.com/)
+   - Tiny PNG was used to compress images for the site.
 
 ## Deployment and Local Development
 
