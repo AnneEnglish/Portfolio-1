@@ -194,6 +194,56 @@ The WC3 Markup Validator and WC3 CSS Validator were used to validate every page 
 - [WC3 Markup Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fanneenglish.github.io%2)
 - [WC3 CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fanneenglish.github.io%2FPortfolio-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-### Solved Bugs
+### Testing User Stories from UX Section
+
+#### First Time Visitor Goals
+
+- I want to be able to understand the purpose of the site.
+
+  - When entering the site, users are greeted with a clean layout. The main points and purpose are immediately made with the paragraph of text that's in the centre of the page.
+
+- I want to be easily able to navigate through the website.
+
+  - At the top of the page there is a navigation toggle, which is easily recognised as the icon used is one that most websites use. This toggle remains in the same place on all pages and the icon also stays the same. When they get to the bottom of the page they also have the option to go to our social media pages.
+
+- I want to be intrigued and continue browsing through the website.
+
+  - Throughout our website we keep our user intrigued with the colourful and beautiful imagery. We also use descriptive language for the alt tags of these images. Above each image there is information about the location, some of which (_as a local_) I didn't know about and surprised me.
+
+- I want to able to locate their social media and see past places that they have recommended. I also want to see vlogs they have posted on their Youtube.
+
+  - Our socal media accounts are easily accessible to the user by the icons we have used, which are universally recognised. They are placed in the footer and the bottom of all pages. They also contain an aria-label attribute.
+
+#### Returning Visitor Goals
+
+- I want to find new recommendations for the month.
+
+- I want to be able to find out how to contact them with any suggestions I have or any questions I have.
+
+#### Frequent Vistor Goals
+
+- I want to be able to contact them with suggestions and submit my own photos for them to use on their website if they would like to.
+
+#### Client Goals
+
+- To be able to view the site on a range of devices with no issues.
+
+- To make it clear to visitors what the purpose of the site is for.
+
+- To allow visitors to submit suggestions if they would like to.
+
+### Further Testing
+
+### Known Bugs
 
 ## Credits
+
+### Code
+
+### Content
+
+### Media
+
+### Acknowledgements
+
+- Tutor support at Code Institute for their support.
