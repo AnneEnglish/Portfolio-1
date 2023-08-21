@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px
+    font-size: 18px;
 }
 
 header {
@@ -24,12 +24,12 @@ header {
     justify-content: space-between;
     align-items: baseline;
     z-index: 99;
-    box-shadow: 0 5px 10px #fff
+    box-shadow: 0 5px 10px #fff;
 }
 
 header a {
     text-decoration: none;
-    color: #fff
+    color: #fff;
 }
 
 h1 {
@@ -37,21 +37,21 @@ h1 {
     text-transform: none;
     letter-spacing: 2px;
     color: #fff;
-    font-size: 20px
+    font-size: 20px;
 }
 
 #nav-list {
     font-size: 110%;
     letter-spacing: 4px;
-    list-style-type: none
+    list-style-type: none;
 }
 
 #nav-list>li {
-    margin-bottom: 1em
+    margin-bottom: 1em;
 }
 
 .home {
-    border-bottom: 1px solid #fff
+    border-bottom: 1px solid #fff;
 }
 
 nav {
@@ -63,19 +63,19 @@ nav {
     padding-top: 1rem;
     padding-right: 1rem;
     display: none;
-    text-align: center
+    text-align: center;
 }
 
 #nav-toggle {
-    display: none
+    display: none;
 }
 
 .nav-toggle-label {
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 #nav-toggle:checked~nav {
-    display: block
+    display: block;
 }
 
 main {
@@ -92,7 +92,7 @@ main {
     padding-right: 22px;
     padding-bottom: 22px;
     margin-top: 1em;
-    flex: 1 0 auto
+    flex: 1 0 auto;
 }
 
 .beaches {
@@ -118,18 +118,18 @@ h3,
 p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 18px
+    font-size: 18px;
 }
 
 li {
-    list-style-type: none
+    list-style-type: none;
 }
 
 li p,
 li h3 {
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    font-size: 16px
+    font-size: 16px;
 }
 
 footer {
@@ -141,11 +141,11 @@ footer {
     list-style-type: none;
     padding: 15px;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 #socials i {
-    font-size: 20px
+    font-size: 20px;
 }
 
 @media screen and (max-width:356px) {
@@ -154,7 +154,7 @@ footer {
     }
 
     main {
-        margin-top: 30px
+        margin-top: 30px;
     }
 
     h2,
@@ -168,7 +168,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
         width: 200px;
-        height: 200px
+        height: 200px;
     }
 }
 
@@ -187,7 +187,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
         width: 151px;
-        height: 200px
+        height: 200px;
     }
 }
 
@@ -207,7 +207,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
         width: 800px;
-        height: 400px
+        height: 400px;
     }
 
     h1 {

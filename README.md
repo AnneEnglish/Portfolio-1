@@ -105,7 +105,7 @@ This website contains three pages (home page, beaches, trails), all of which are
 - All pages on the website contain the following:
 
   - A responsive navigation bar at the top right of the screen which allows the user to navigate easily through the site. This navigation bar has a burger icon to toggle it.
-  - A footer which contains three icons (Instagram, Facebook, Youtube) to allow the user to access our social media or contact us whenever they wish to. I used those icons as they are universally recognised and it helps to keep the footer looking clean.
+  - A footer which contains four icons (Gmail, Instagram, Facebook, Youtube) to allow the user to access our social media or contact us whenever they wish to. I used those icons as they are universally recognised and it helps to keep the footer looking clean.
   - All images that are relative to the content shown on the page have an _'alt'_ attribute. The reasons being that incase the image can't be displayed, for SEO and for users that are visually impaired.
 
 ### Accessibility
@@ -218,31 +218,93 @@ The WC3 Markup Validator and WC3 CSS Validator were used to validate every page 
 
 - I want to find new recommendations for the month.
 
+  - We state on our homepage that our recommendations get updated every Monday. Therefore if the user visits our site on Monday or after, they will see the most up to date recommendations.
+
 - I want to be able to find out how to contact them with any suggestions I have or any questions I have.
+
+  - We also state on our homepage that the user can contact us through our social media, which is located in the footer of our page.
 
 #### Frequent Vistor Goals
 
 - I want to be able to contact them with suggestions and submit my own photos for them to use on their website if they would like to.
 
+  - Users have the option to contact us and submit photos through Gmail, Facebook or Instagram.
+
 #### Client Goals
 
 - To be able to view the site on a range of devices with no issues.
 
+  - Our website was created using the 'mobile first' approach, we then tailord it with media queries so that it responds well to a range of devices.
+
 - To make it clear to visitors what the purpose of the site is for.
+
+- We make it very clear on our homepage what the purpose of the site is for. The SEO also helps to make it clear what the site is for as the user would have searched for keywords that would cause our page to show up.
 
 - To allow visitors to submit suggestions if they would like to.
 
+- We allow our visitors to contact us through a range of social media, so they can choose one that suits them best. We also accept suggestions through said social media accounts.
+
 ### Further Testing
 
+- The website was tested on a range of web browsers and responded well to each of them. **Some** of the web browsers we have tested on were Chrome, Safari, Microsoft Edge.
+
+- Friends, family and coworkers were asked to view the website and provide feedback. This proved well as there were some bugs pointed out that I have since fixed.
+
+- The website was viewed on a range of devices such as:
+
+  - iPhone 13
+  - Samsung Galaxy s10e
+  - Samsung Galaxy A70
+  - iPhone 11
+  - HP Stream 14s
+  - Apple MacBook Pro
+  - Samsung Galaxy Tab A8
+
+- A large amount of the testing went into making sure that all the HTML pages and CSS pages were linking correctly and that there was no layout issues or pixelation of images.
+
 ### Known Bugs
+
+- On some mobiles the main content area pulls closer to the header but is not covered by it.
+- When testing through lighthouse the performance for some pages on the site drops due to the images no being sized properly (not being compressed). When I compress the images and put them back in the performance drops more, even though I have compressed the images. I know this issue is due to the file size as I have looked into it and there is a separate issue for the ratio of the images.
 
 ## Credits
 
 ### Code
 
+- On line 102 through to 108 of the style.css page was taken from [w3.org](https://www.w3.org/Style/Examples/007/center.en.tmpl#viewport3) with the exception of deleting some of the code to better suit what I needed it to do.
+- Some parts of code in style.css, beaches.css and trails.css was taken from my 'Love Running' project. Lines 3 through to 28 is where you'll find this code, with the exception of tailoring some of it to better suit my project. Lines 3 through to 12 were not altered.
+
 ### Content
 
+The content of my project was _mostly_ written by me with the exception of some parts. Through researching and looking at content from other websites and then _mostly_ rewriting it to try to make it my own.
+
+Websites that I have used for research are as follows:
+
+- [The Irish Road Trip](https://www.theirishroadtrip.com/)
+- [Tripadvisor](https://www.tripadvisor.ie/)
+- [Discover Ireland](https://www.discoverireland.ie/)
+- [Visit Waterford](https://visitwaterford.com/)
+- [Waterford In Your Pocket](https://waterfordinyourpocket.com/)
+- [AllTrails](https://www.alltrails.com/?ref=header)
+
 ### Media
+
+The media displayed on this website is from the following:
+
+- All images (_except background images on beaches.html and trails.html_) are from:
+
+  - [Shutterstock](https://www.shutterstock.com/)
+  - [AdobeStock](https://stock.adobe.com/uk/)
+
+- The background images are from Google Images (links are from the websites they came from):
+
+  - [Beaches.html background image](https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsand&psig=AOvVaw0vncK15m411dS6dizzFPiJ&ust=1692747250251000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDAqob17oADFQAAAAAdAAAAABAE)
+  - [Trails.html background image](https://www.google.com/imgres?imgurl=https%3A%2F%2Fw0.peakpx.com%2Fwallpaper%2F353%2F644%2FHD-wallpaper-green-grass-texture-summer-macro-green-background-grass-textures-green-grass-close-up-grass-from-top-grass-background.jpg&tbnid=SGZ18spd7DMa-M&vet=12ahUKEwjO4PSL9u6AAxWxSEEAHahoCekQMygAegQIARA0..i&imgrefurl=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-klorc&docid=2bCYnDaD5c6TYM&w=800&h=500&q=https%3A%2F%2Fw0.peakpx.com%2Fwallpaper%2F353%2F644%2FHD-wallpaper-green-grass-texture-summer-macro-green-background-grass-textures-green-grass-close-up-grass-from-top-grass-background.jpg&ved=2ahUKEwjO4PSL9u6AAxWxSEEAHahoCekQMygAegQIARA0)
+
+The images above were then edited using the following:
+
+- [Online Convert](https://www.online-convert.com/)
+- [BeFunky](https://www.befunky.com/)
 
 ### Acknowledgements
 
