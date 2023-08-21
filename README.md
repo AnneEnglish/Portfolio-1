@@ -138,11 +138,62 @@ Throughout creating this website I have made sure to make it as accessible as po
    - Chrome DevTools was used to test features and fix styling and responsiveness issues.
 6. [Online Convert:](https://www.online-convert.com/)
    - Online Convert was used to convert images to WEBP for faster loading times on the site.
-7. [Tiny PNG](https://tinypng.com/)
-   - Tiny PNG was used to compress images for the site.
+7. [Favicon.io:](https://favicon.io/)
+   - Favicon.io was used to import icons for the navigation bar and footer icons.
+8. [Am I Responsive?](http://ami.responsivedesign.is/)
+   - Am I Responsive was used to show the responsiveness of the website on a range of devices.
 
 ## Deployment and Local Development
 
+### Deployment - GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps:
+
+1. Log into [Github](https://github.com/)
+2. Locate and click on the GitHub Repository for the project you want to deploy.
+3. Locate the 'settings' for the respository. This will be at the top of the repository (**not the top of the page**).
+4. Scroll through the settings until you see 'Pages' and click on it. This will be in the navigation bar on the left of your screen.
+5. Under the heading 'source' click on the dropdown menu and select 'deploy from branch'.
+6. Under the 'branch' heading just below select 'main' from the first dropdown menu, from the second dropdown menu select '/ (root)'
+7. After you complete these steps make sure to save. The button for this is to the right of the second dropdown menu.
+8. Scroll to the top of the page and you will find the link for the published site.
+
+### Local Development
+
+#### Forking the Github Repository
+
+Forking a GitHub repository is making a copy of the original on our account. We can view/edit without affecting the original repository. Follow the steps below to do this:
+
+1. Log into [Github](https://github.com/)
+2. Locate and click on the GitHub Repository for the project you want to fork.
+3. Just below the 'settings' for the respository you will see 'fork'. Click on it and you should now have a copy of the original repository on your GitHub account.
+
+#### Making a Local Clone
+
+1. Log into [Github](https://github.com/)
+2. Locate the GitHub repository for the project you want to clone.
+3. Locate and click on the green 'code' button. This should be just below the 'settings'.
+4. Choose whether you would like to clone with 'HTTPS', 'SSH' or 'GitHub CLI'.
+5. Copy the link after you select one of the options above.
+6. Open the terminal for your code editor and change the current working directory to the location where you want the cloned directory to be made.
+7. Type 'git clone' into the terminal followed by the link you copied in Step 5 (paste the link into terminal).
+8. Press 'enter' and your local clone will be created.
+
 ## Testing
+
+Testing was constant throughout this project. I used Chrome DevTools to locate any issues I was having while building.
+
+Some of the issues I was having is:
+
+- The main content area being covered by the header on different devices.
+- The footer not being pushed to the bottom of the page because I didn't have enough content to fill the page.
+- Images not aligning the way I wanted them to.
+
+The WC3 Markup Validator and WC3 CSS Validator were used to validate every page of the project and to ensure there was no errors.
+
+- [WC3 Markup Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fanneenglish.github.io%2)
+- [WC3 CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fanneenglish.github.io%2FPortfolio-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Solved Bugs
 
 ## Credits
