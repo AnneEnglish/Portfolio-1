@@ -6,7 +6,7 @@ whether it be the beach or somewhere nice to go for a walk they can find that
 information here. My website is also responsive so the visitor can view it from
 whatever device they choose.
 
-![Best Places to Visit in Waterford on different devices](assets/readme-images/am-i-responsive-new.png)
+![Best Places to Visit in Waterford on different devices](assets/readme-images/am-i-responsive-new1.png)
 
 [View Best Places to Visit in Waterford on GitHub](https://github.com/AnneEnglish/Portfolio-1)
 
@@ -23,21 +23,33 @@ whatever device they choose.
 
   - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Features](#features)
+  - [Accessibility](#accessibility)
+  -
 
 - [Technologies Used](#technologies-used)
 
-  - T
+  - [Languages Used](#languages-used)
+  - [Libraries and Programs Used](#libraries-and-programs-used)
 
 - [Deployment and Local Development](#deployment-and-local-development)
 
-  - Dev
+  - [Deployment(GitHub Pages)](#deployment---github-pages)
+  - [Local Development](#local-development)
 
 - [Testing](#testing)
 
-  - Testing
+  - [Testing User Stories from UX Section](#testing-user-stories-from-ux-section)
+  - [Further Testing](#further-testing)
+  - [Known Bugs](#known-bugs)
 
 - [Credits](#credits)
-  - Code
+
+  - [Code](#code)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
 ---
 
