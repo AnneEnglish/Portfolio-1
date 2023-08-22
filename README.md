@@ -10,6 +10,8 @@ whatever device they choose.
 
 [View Best Places to Visit in Waterford on GitHub](https://github.com/AnneEnglish/Portfolio-1)
 
+[Visit live site](https://anneenglish.github.io/Portfolio-1/)
+
 ---
 
 ## Contents
