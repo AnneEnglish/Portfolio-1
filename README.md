@@ -117,7 +117,7 @@ This website contains three pages (home page, beaches, trails), all of which are
 
   - A responsive navigation bar at the top right of the screen which allows the user to navigate easily through the site. This navigation bar has a burger icon to toggle it.
   - A footer which contains four icons (Gmail, Instagram, Facebook, Youtube) to allow the user to access our social media or contact us whenever they wish to. I used those icons as they are universally recognised and it helps to keep the footer looking clean.
-  - All images that are relative to the content shown on the page have an _'alt'_ attribute. The reasons being that incase the image can't be displayed, for SEO and for users that are visually impaired.
+  - All images that are relative to the content shown on the page have an _'alt'_ attribute. The reason being incase the image can't be displayed, for SEO and for users that are visually impaired.
 
 ### Accessibility
 
@@ -194,7 +194,7 @@ Forking a GitHub repository is making a copy of the original on our account. We 
 
 Testing was constant throughout this project. I used Chrome DevTools to locate any issues I was having while building.
 
-Some of the issues I was having is:
+Some of the issues I was having were:
 
 - The main content area being covered by the header on different devices.
 - The footer not being pushed to the bottom of the page because I didn't have enough content to fill the page.
@@ -235,7 +235,7 @@ The WC3 Markup Validator and WC3 CSS Validator were used to validate every page 
 
   - We also state on our homepage that the user can contact us through our social media, which is located in the footer of our page.
 
-#### Frequent Vistor Goals
+#### Frequent Visitor Goals
 
 - I want to be able to contact them with suggestions and submit my own photos for them to use on their website if they would like to.
 
@@ -245,7 +245,7 @@ The WC3 Markup Validator and WC3 CSS Validator were used to validate every page 
 
 - To be able to view the site on a range of devices with no issues.
 
-  - Our website was created using the 'mobile first' approach, we then tailord it with media queries so that it responds well to a range of devices.
+  - Our website was created using the 'mobile first' approach, we then tailored it with media queries so that it responds well to a range of devices.
 
 - To make it clear to visitors what the purpose of the site is for.
 
@@ -282,8 +282,8 @@ The WC3 Markup Validator and WC3 CSS Validator were used to validate every page 
 
 ### Code
 
-- On line 102 through to 108 of the style.css page was taken from [w3.org](https://www.w3.org/Style/Examples/007/center.en.tmpl#viewport3) with the exception of deleting some of the code to better suit what I needed it to do.
-- Some parts of code in style.css, beaches.css and trails.css was taken from my 'Love Running' project. Lines 3 through to 28 is where you'll find this code, with the exception of tailoring some of it to better suit my project. Lines 3 through to 12 were not altered.
+- On line 102 through to 108 of the style.css page were taken from [w3.org](https://www.w3.org/Style/Examples/007/center.en.tmpl#viewport3) with the exception of deleting some of the code to better suit what I needed it to do.
+- Some parts of code in style.css, beaches.css and trails.css were taken from my 'Love Running' project. Lines 3 through to 28 is where you'll find this code, with the exception of tailoring some of it to better suit my project. Lines 3 through to 12 were not altered.
 
 ### Content
 
