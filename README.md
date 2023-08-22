@@ -1,7 +1,7 @@
 # Best Places to Visit in Waterford
 
 My Best Places to Visit in Waterford website is designed to allow it's visitors
-to find new (or old places they may have forgotton about) in Waterford, whether it be the beach or somewhere nice to go for a walk they can find that information here. My website is also responsive so the visitor can view it from whatever device they choose.
+to find new (or old places they may have forgotten about) in Waterford, whether it be the beach or somewhere nice to go for a walk they can find that information here. My website is also responsive so the visitor can view it from whatever device they choose.
 
 ![Best Places to Visit in Waterford on different devices](assets/readme-images/am-i-responsive-new1.png)
 
@@ -59,7 +59,7 @@ to find new (or old places they may have forgotton about) in Waterford, whether 
 Best Places to Visit in Waterford is a website where people can gather information
 and ideas on places to visit within Waterford. They can choose from different places
 by using the navigation bar. If they visit any of the places we have recommended
-they can tag us on our Facebook or instagram pages. That way we can gauge what
+they can tag us on our Facebook or Instagram pages. That way we can gauge what
 kind of places are more popular than others, in return we can tailor our website
 to suit our users and what they like. If they also have any suggestions they can
 contact us through our social media.
@@ -78,7 +78,7 @@ contact us through our social media.
 - I want to find new recommendations for the month.
 - I want to be able to find out how to contact them with any suggestions I have or any questions I have.
 
-#### Frequent Vistor Goals
+#### Frequent Visitor Goals
 
 - I want to be able to contact them with suggestions and submit my own photos for them to use on their website if they would like to.
 
@@ -162,7 +162,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 1. Log into [Github](https://github.com/)
 2. Locate and click on the GitHub Repository for the project you want to deploy.
-3. Locate the 'settings' for the respository. This will be at the top of the repository (**not the top of the page**).
+3. Locate the 'settings' for the repository. This will be at the top of the repository (**not the top of the page**).
 4. Scroll through the settings until you see 'Pages' and click on it. This will be in the navigation bar on the left of your screen.
 5. Under the heading 'source' click on the dropdown menu and select 'deploy from branch'.
 6. Under the 'branch' heading just below select 'main' from the first dropdown menu, from the second dropdown menu select '/ (root)'
@@ -177,7 +177,7 @@ Forking a GitHub repository is making a copy of the original on our account. We 
 
 1. Log into [Github](https://github.com/)
 2. Locate and click on the GitHub Repository for the project you want to fork.
-3. Just below the 'settings' for the respository you will see 'fork'. Click on it and you should now have a copy of the original repository on your GitHub account.
+3. Just below the 'settings' for the repository you will see 'fork'. Click on it and you should now have a copy of the original repository on your GitHub account.
 
 #### Making a Local Clone
 
@@ -223,7 +223,7 @@ The WC3 Markup Validator and WC3 CSS Validator were used to validate every page 
 
 - I want to able to locate their social media and see past places that they have recommended. I also want to see vlogs they have posted on their Youtube.
 
-  - Our socal media accounts are easily accessible to the user by the icons we have used, which are universally recognised. They are placed in the footer and the bottom of all pages. They also contain an aria-label attribute.
+  - Our social media accounts are easily accessible to the user by the icons we have used, which are universally recognised. They are placed in the footer and the bottom of all pages. They also contain an aria-label attribute.
 
 #### Returning Visitor Goals
 
